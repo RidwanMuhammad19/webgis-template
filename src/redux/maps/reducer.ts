@@ -3,10 +3,12 @@ import { typesMaps } from "./type";
 
 const INITIAL_MAPS_STATE = {
   legenda: [],
+  position: [],
 };
 
 type INITIAL_MAPS_STATE_TYPE = {
   legenda: Array<LEGENDA_TYPES>;
+  position: Array<number>;
 };
 
 type ReducerActionType = { type: string; payload: {} | string };
