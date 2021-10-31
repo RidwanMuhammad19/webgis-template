@@ -25,3 +25,5 @@ const mapsReducers = (
       return state;
   }
 };
+
+export default mapsReducers;

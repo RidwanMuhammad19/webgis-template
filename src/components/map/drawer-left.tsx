@@ -34,13 +34,13 @@ const DrawerMapLeft = () => {
             <DrawerBody p="0">
               <TabsMap>
                 <TabPanel>
-                  <LayerInfo />
+                  {/* <LayerInfo /> */}
                 </TabPanel>
                 <TabPanel>
-                  <LayerSettings />
+                  {/* <LayerSettings /> */}
                 </TabPanel>
                 <TabPanel>
-                  <LayerLegend />
+                  {/* <LayerLegend /> */}
                 </TabPanel>
               </TabsMap>
             </DrawerBody>
